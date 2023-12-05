@@ -22,8 +22,6 @@ class App extends Component {
         [e.target.name]: prevState[e.target.name] + 1,
       };
     });
-    this.countTotalFeedback();
-    this.countPositiveFeedbackPercentage();
   };
 
   render() {
